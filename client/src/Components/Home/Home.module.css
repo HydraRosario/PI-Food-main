@@ -1,0 +1,135 @@
+.background{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url("../../Decoration/marmol-rosa.jpg");
+    background-size: cover;
+    overflow: auto;
+    padding: 30px;
+}
+
+.contentPadre{
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    border: 3px solid rgb(255, 255, 255);
+
+    /* padding: 13px 19px 13px 19px; */
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.contNavBarPadre{
+    background-color: #ffda9e;
+    display: flex ;
+    justify-content: center;
+    position: relative;
+    flex-direction:row;
+    align-items:center;
+    place-content: space-around;
+    padding: 2% 0% 2% 0%;
+}
+
+.title{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-weight: 20;
+    font-size: 20px;
+}
+.title:hover{
+    background-color: #2B3951;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+.contCraeteRecipe{ 
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 7px 10px 7px;
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.contCraeteRecipe:hover{
+    background-color: #2B3951;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+    color: white;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  margin-left: 50%;
+}
+.button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 7px 10px 7px;
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.button:hover{
+    background-color: #2B3951;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+    color: white;
+    cursor: pointer;
+}
+.filters{
+    background: #fdf9c4;
+    border-radius: 20px;
+    border: 1.5px solid #B64074;
+
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    place-content: space-around;
+    padding: 15px 0px 15px 0px;
+}
+.paginationTop{
+    background: #fdf9c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 5px 0px 5px 1px
+}
+.paginationBottom{
+    background: #fdf9c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 5px 0px 5px 1px
+}
+.containerRecipe{
+  justify-self: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+select{
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(170, 167, 167);
+}
+.pagination{
+    grid-column:3/4;
+    grid-row: -4/-3;   
+    
+}

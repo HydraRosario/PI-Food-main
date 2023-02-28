@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 15rem; 
+  /* ver si la heigth conviene que sea "auto" */
+  height: 25rem;
+  align-items: center;
+  border-style: none;
+  background-size:cover;
+  border-radius: 10px;
+  transition: transform .5s;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-right: 2px;
+  margin-left: 2px;
+  background-color: rgba(255, 255, 255, 0.767);
+  text-decoration: none;
+  box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card_text{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;    
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 27px;
+  align-items: center;
+  text-decoration: solid;
+}
+
+.img {
+  width: 15rem;
+  height: 200;
+  border-radius: 10px;
+}
