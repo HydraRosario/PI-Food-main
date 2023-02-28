@@ -6,7 +6,7 @@ import CreateRecipe from './Components/CreateRecipe/CreateRecipe';
 import DetailsRecipe from './Components/DetailsRecipe/DetailsRecipe';
 import Home from './Components/Home/Home';
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'pi-food-main-production-5201.up.railway.app';
 
 function App() {
   return (
